@@ -11,9 +11,9 @@ import java.util.Locale;
 
 public class Main {
 
-    public static Tickets tickets = new Tickets();// по сути обертка для HashSet<Product>. В классе обьясню смысл
+    public static Tickets tickets = new Tickets();
     public static LocalDateTime start;//старт проги
-    public static ArrayList<Command> commands = new ArrayList<>();// массив команд. Тут применен принцип полиморфизма.
+    public static ArrayList<Command> commands = new ArrayList<>();
     public static int ids = 0;//id каждого обьекта
     public static String error = "поле введено неверно. Заменено на ";
 
