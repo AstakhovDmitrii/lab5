@@ -33,7 +33,7 @@ public class Execute_script implements Command {
                             break;
                         }
                     }
-                    if (!isCommand) {// если ты не понимаешь зачем это, тебе не в итмо а в дурку))))
+                    if (!isCommand) {
                         Printer.getInstance().WriteLine("нет такой команды");
                     }
                 }
