@@ -15,7 +15,7 @@ public class Execute_script implements Command {
         String[] strings = command.split(",", 2);
         if(strings.length == 2){
             Scanner scanner = new Scanner(new File(strings[1].trim()));// записываем файл в сканер. Пользуемся так же как и с консолью
-            while (true){//бесуонечный цикл ввода команд
+            while (true){//бесконечный цикл ввода команд
                 try {
                     Printer.getInstance().WriteLine("введите команду");
                     String next = scanner.nextLine().trim();// очищаем начало и конец строки от пробелов, чтобы команда такого вида " Show" имела место быть
